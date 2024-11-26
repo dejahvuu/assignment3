@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Coming+Soon&family=Edu+SA+Beginner:wght@400..700&family=Gochi+Hand&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Nothing+You+Could+Do&family=Swanky+and+Moo+Moo&display=swap');
+
+html {
+    font-family: "Mona Sans", sans-serif;
+    font-size: 1.3em;
+    scroll-behavior: smooth;
+   
+    
+    
+/* The image below is taken from Adobe Stock images (https://stock.adobe.com/ca/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&k=white+texture+background+&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=white+texture+background+&get_facets=0&asset_id=126953722)*/
+    background-image: url(../img/background-image.jpg);
+
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+/* The image below is taken from Ana Adventure https://anaadventure.org/2018/03/29/polaroid-collection/ */
+.header-banner {
+    height: 100vh;
+    background-image: url(../img/headerimage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -230px;
+}
+
+.header-logo {
+    margin-top: 50px;
+}
+
+/* The image below is taken from Adobe Stock images https://stock.adobe.com/ca/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=vintage+background&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=vintage+background&get_facets=0&asset_id=44230191*/
+.header-banner2 {
+    height: 100vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -230px;
+}
+
+/* The image below is taken from Freepik https://www.freepik.com/free-photo/close-up-film-texture-details_25054222.htm#fromView=keyword&page=1&position=0&uuid=2f2b05aa-3069-4443-bb0b-710581139dc2&new_detail=true */
+.header-banner3 {
+    height: 100vh;
+    background-image: url(../img/headerimage3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -230px;
+}
+
+/* Logo */
+
+.img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation */
+
+.nav {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 30px 0 0 40px;
+}
+
+.nav ul li a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: cadetblue;
+}
+
+/* Icons */
+
+.icons {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    margin-right: 50px;
+}
+
+.icons ul {
+    margin: 0;
+    padding: 0;
+}
+
+.icons ul li {
+    display: inline-block;
+    margin: 30px 0 0 40px;
+}
+
+.icons ul li i {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+
+.icons ul li i:hover {
+    color: cadetblue;
+}
+
+/* Main */
+
+.main {
+    width: 90%;
+    margin: auto;
+    padding: 150px;
+}
+
+.main img {
+    margin-right: 100px;
+}
+
+.main h1 {
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 2em;
+    margin-left: -50px;
+}
+
+.main h2 {
+    margin-left: -50px;
+}
+
+.main p {
+    font-size: 12pt;
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    flex: 1;
+    border: 10px ;
+    margin: auto;
+    padding: 50px;
+}
+
+
+.flex img:hover {
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
+}
+
+
+.flex h3 {
+margin-left: -50px;
+
+}
+
+.flex h4 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: -50px;
+}
+
+.flex p {
+margin-left: -50px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: black;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+
+}
+
+.footer ul li a:hover {
+    color: cadetblue;
+
+}
+
+.footer div {
+    color: white;
+}
+
+.footer button {
+        background-color: cadetblue;
+        color: white;
+        border: cadetblue;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 15px;
+}
+
+.footer button:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.footer h6{
+    color: white;
+}
+
+/* Button */
+
+.button {
+    background-color: cadetblue;
+    color: white;
+    border: cadetblue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.flex button {
+    background-color: cadetblue;
+    color: white;
+    border: cadetblue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.flex button:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.copy h6 {
+    padding-right: 90px;
+}
+
